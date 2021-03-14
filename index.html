@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+
+    <link href="Font Awesome/css/all.css" rel="stylesheet" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOB</title>
+  </head>
+  <body>
+    <ul class="box_items">
+      <img class="box_image" src="e21ed611fec39f3911d7376723811d8a.jpg" />
+
+      <a href="index.html" class="a_css">
+        <li class="box_item">
+          <i class="fas fa-user-graduate"></i>
+          <p class="font_css">Students</p>
+        </li>
+      </a>
+
+      <a href="index.html" class="a_css">
+        <li class="box_item">
+          <i class="fas fa-book"></i>
+          <p class="font_css">Lesson Plan</p>
+        </li>
+      </a>
+
+      <a href="index.html" class="a_css">
+        <li class="box_item">
+          <i class="fas fa-cog"></i>
+          <p class="font_css">Settings</p>
+        </li>
+      </a>
+    </ul>
+
+    <nav class="white-nav"></nav>
+    <p class="p_css">◀ Videos</p>
+
+    <input class="input_css" type="text" placeholder="Insert URL here" />
+
+    <p class="or_css">or</p>
+
+    <!-- <div class="upload_box">
+      <p class="upload_heading">Upload</p>
+    </div> -->
+
+    <input type="file" id="fileLoader" name="files" title="Load File" />
+    <input
+    class="upload_box"
+      type="button"
+      id="btnOpenFileDialog"
+      value="Upload"
+      style="margin-left: 310px"
+      onclick="openfileDialog();"
+    />
+  </body>
+  <script>
+    function openfileDialog() {
+      document.getElementById("fileLoader").click();
+    }
+  </script>
+</html>
+
+
